@@ -1,6 +1,27 @@
 const router = require("express").Router();
 const { User } = require("../../models");
+//Create new user
+router.post('/', async (req, res) => {
+  try {
+    const dbUserData = await User.create({
+      username: req.body.username,
+      password: req.body.password,
+    })
+    res.json(dbUserData);
 
+    req.session.save(() => {
+      req.session.user_id = dbUserData.id;
+      req.session.logged_in = true;
+
+      res.status(200).json(dbUserData);
+    });
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
+
+//User login
 router.post("/login", async (req, res) => {
   try {
     const userData = await User.findOne({ where: { username: req.body.username } });
@@ -32,6 +53,7 @@ router.post("/login", async (req, res) => {
   }
 });
 
+//User logout
 router.post("/logout", (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
@@ -42,4 +64,19 @@ router.post("/logout", (req, res) => {
   }
 });
 
+//Retrieve all users
+router.get('/', async(req, res) => {
+  try {
+    const result = await User.findAll();
+    const users = result.map((user) => {
+      return user.get({plain: true})
+    })
+    res.json(users)
+  } catch (err) {
+    res.status(500).json(err)
+  }
+})
+
+//Retrieve user by ID
+router.get()
 module.exports = router;
