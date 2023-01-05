@@ -26,16 +26,20 @@ Post.init(
             len: [1]
         }
       },
-      post_state: {
-        type: DataTypes.STRING,
-        allowNull: false
+      state_id: {
+        type: DataTypes.INTEGER,
+        defaultValue: null,
+        references: {
+          model: 'state',
+          key: 'id'
+        }
       }
   },
   {
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'comment'
+    modelName: 'post'
   }
 );
 

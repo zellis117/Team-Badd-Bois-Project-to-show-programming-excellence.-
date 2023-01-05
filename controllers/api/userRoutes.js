@@ -1,20 +1,15 @@
 const router = require("express").Router();
 const { User } = require("../../models");
+
 //Create new user
-router.post('/', async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const dbUserData = await User.create({
       username: req.body.username,
       password: req.body.password,
-    })
-    res.json(dbUserData);
-
-    req.session.save(() => {
-      req.session.user_id = dbUserData.id;
-      req.session.logged_in = true;
-
-      res.status(200).json(dbUserData);
     });
+    res.status(200).json(dbUserData);
+    
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
@@ -24,7 +19,9 @@ router.post('/', async (req, res) => {
 //User login
 router.post("/login", async (req, res) => {
   try {
-    const userData = await User.findOne({ where: { username: req.body.username } });
+    const userData = await User.findOne({
+      where: { username: req.body.username },
+    });
 
     if (!userData) {
       res
@@ -63,20 +60,30 @@ router.post("/logout", (req, res) => {
     res.status(404).end();
   }
 });
+//Retrieve user by ID
+router.get("/:id", async (req, res) => {
+  try {
+    const result = await User.findByPk(req.params.id);
+    if (result) {
+      const user = result.get({ plain: true });
+      res.status(200).json(user);
+    }
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 //Retrieve all users
-router.get('/', async(req, res) => {
+router.get("/", async (req, res) => {
   try {
     const result = await User.findAll();
     const users = result.map((user) => {
-      return user.get({plain: true})
-    })
-    res.json(users)
+      return user.get({ plain: true });
+    });
+    res.json(users);
   } catch (err) {
-    res.status(500).json(err)
+    res.status(500).json(err);
   }
-})
+});
 
-//Retrieve user by ID
-router.get()
 module.exports = router;
