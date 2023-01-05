@@ -25,4 +25,22 @@ router.get("/", async (req, res) => {
         res.status(500).json(err);
     }
 });
+
+//Delete post
+router.delete('/:id', async (req, res) => {
+  try {
+    const result = await Post.destroy({
+      where: {
+        id: req.params.id
+      }
+    })
+    if (!result) {
+      res.status(404).json({message: "Post not found"})
+    } else {
+      res.status(200).json(result)
+    }
+  } catch (err) {
+    res.status(500).json(err)
+  }
+})
 module.exports = router
