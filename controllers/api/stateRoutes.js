@@ -6,7 +6,7 @@ const { State, Post } = require("../../models");
 router.get("/", async (req, res) => {
     try {
         //TODO: include posts with each state
-      const result = await State.findAll();
+      const result = await State.findAll({include:[{"model": Post}]});
       const states = result.map((state) => {
         return state.get({ plain: true });
       });
