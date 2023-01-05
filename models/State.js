@@ -33,8 +33,8 @@ State.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'user',
+    modelName: 'state'
   }
 );
 
-module.exports = User;
+module.exports = State;
