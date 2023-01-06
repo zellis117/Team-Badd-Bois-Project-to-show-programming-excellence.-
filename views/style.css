@@ -1,3 +1,15 @@
+body{
+    background-image: url(./images/background_img.jpg);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-image: url(./images/flag_img.jpg);
+}
+
 button{
     height: 50px;
     width: 50px;
@@ -7,6 +19,18 @@ button{
     position: absolute;
     align-items: center;
     border-color: black;
+}
+
+#info{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    left: 700px;
+    top: 200px;
 }
 
 #Alabama{position:absolute; left:300px; top:300px}
@@ -32,7 +56,7 @@ button{
 #Massachusetts{position:absolute; left:450px; top:100px}
 #Michigan{position:absolute; left:300px; top:100px}
 #Minnasota{position:absolute; left:200px; top:100px}
-#Mississippi{position:absolute; left:250px; top:300px}/*start point*/
+#Mississippi{position:absolute; left:250px; top:300px}
 #Missuri{position:absolute; left:200px; top:200px}
 #Montana{position:absolute; left:100px; top:100px}
 #Nebraska{position:absolute; left:150px; top:200px}
@@ -60,3 +84,11 @@ button{
 #Wisconsin{position:absolute; left:250px; top:50px}
 #Wyoming{position:absolute; left:100px; top:150px}
 #DC{position:absolute; left:400px; top:250px}
+
+@media only screen and (max-width: 850px){
+    #info{
+        position: absolute;
+        left: 50px;
+        top: 700px;
+    }
+}
