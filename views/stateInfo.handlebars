@@ -1,0 +1,36 @@
+<div class='container'>
+  <div class='card-header col-md-10'>
+    <div class="dish-card">
+  <div class="card-header">
+    {{state.state_name}}
+  </div>
+  <div class="card-body">
+    <p>
+      ID:
+      {{state.id}}
+    </p>
+    <p>
+      Size:
+      {{state.size}}
+    </p>
+  </div>
+</div>
+
+    <h2>
+      &#127869 Posts about this State
+    </h2>
+  </div>
+  {{#each state.posts as |post|}}
+    <div class='dish col-md-5'>
+      <p>
+        {{post_text}}.
+        {{id}}
+      </p>
+    </div>
+    <div class='col-md-7'>
+      <p>
+        Guest:
+        {{user_id}}
+      </p>
+    </div>
+  {{/each}}
