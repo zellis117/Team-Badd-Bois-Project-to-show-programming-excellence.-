@@ -1,0 +1,308 @@
+[
+    {
+        "id": 1,
+        "state_name": "Alabama",
+        "size": "50,065 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 2,
+        "state_name": "Alaska",
+        "size": "586,000 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 3,
+        "state_name": "Arizona",
+        "size": "113,594 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 4,
+        "state_name": "Arkansas",
+        "size": "52,035 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 5,
+        "state_name": "California",
+        "size": "155,959 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 6,
+        "state_name": "Colorado",
+        "size": "103,641 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 7,
+        "state_name": "Connecticut",
+        "size": "4,842 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 8,
+        "state_name": "Delaware",
+        "size": "1,948 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 9,
+        "state_name": "Florida",
+        "size": "53,624 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 10,
+        "state_name": "Georgia",
+        "size": "57,513 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 11,
+        "state_name": "Hawaii",
+        "size": "6,422 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 12,
+        "state_name": "Idaho",
+        "size": "82,169 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 13,
+        "state_name": "Illinois",
+        "size": "55,518 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 14,
+        "state_name": "Indiana",
+        "size": "35,826 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 15,
+        "state_name": "Iowa",
+        "size": "55,857 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 16,
+        "state_name": "Kansas",
+        "size": "81,758 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 17,
+        "state_name": "Kentucky",
+        "size": "39,486 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 18,
+        "state_name": "Luisiana",
+        "size": "43,203 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 19,
+        "state_name": "Maine",
+        "size": "30,842 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 20,
+        "state_name": "Maryland",
+        "size": "9,707 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 21,
+        "state_name": "Massachusetts",
+        "size": "7,800 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 22,
+        "state_name": "Michigan",
+        "size": "56,538 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 23,
+        "state_name": "Minnesota",
+        "size": "79,626 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 24,
+        "state_name": "Mississippi",
+        "size": "46,923 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 25,
+        "state_name": "Missouri",
+        "size": "68,741 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 26,
+        "state_name": "Montana",
+        "size": "145,552 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 27,
+        "state_name": "Nebraska",
+        "size": "76,824 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 28,
+        "state_name": "Nevada",
+        "size": "109,781 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 29,
+        "state_name": "New Hampshire",
+        "size": "8,952 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 30,
+        "state_name": "New Jersey",
+        "size": "7,354 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 31,
+        "state_name": "New Mexico",
+        "size": "121,298 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 32,
+        "state_name": "New York",
+        "size": "47,126 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 33,
+        "state_name": "North Carolina",
+        "size": "48,617 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 34,
+        "state_name": "North Dakota",
+        "size": "69,000 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 35,
+        "state_name": "Ohio",
+        "size": "40,860 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 36,
+        "state_name": "Oklahoma",
+        "size": "68,594 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 37,
+        "state_name": "Oregon",
+        "size": "95,988 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 38,
+        "state_name": "Pennsylvania",
+        "size": "44,742 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 39,
+        "state_name": "Rhode Island",
+        "size": "1,033 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 40,
+        "state_name": "South Carolina",
+        "size": "30,060 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 41,
+        "state_name": "South Dakota",
+        "size": "75,811 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 42,
+        "state_name": "Tennessee",
+        "size": "41,234 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 43,
+        "state_name": "Texas",
+        "size": "261,232 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 44,
+        "state_name": "Utah",
+        "size": "82,169 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 45,
+        "state_name": "Vermont",
+        "size": "9,216 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 46,
+        "state_name": "Virginia",
+        "size": "39,490 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 47,
+        "state_name": "Washington",
+        "size": "66,455 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 48,
+        "state_name": "West Virginia",
+        "size": "24,038 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 49,
+        "state_name": "Wisconsin",
+        "size": "54,157 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 50,
+        "state_name": "Wyoming",
+        "size": "97,093 sq mi",
+        "fun_fact": " "
+    },
+    {
+        "id": 51,
+        "state_name": "DC",
+        "size": "68 sq mi",
+        "fun_fact": " "
+    }
+]
