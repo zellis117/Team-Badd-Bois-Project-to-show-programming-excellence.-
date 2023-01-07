@@ -31,8 +31,9 @@ router.get("/:id", async (req, res) => {
       });
       if (result) {
         const state = result.get({plain: true});
-        const posts = result.posts.map((post) => post.get({ plain: true }));
-      res.render('stateInfo', { state });
+      res.render('stateInfo', { 
+        state, 
+        loggedIn: req.session.logged_in });
       };
       
      } catch (err) {

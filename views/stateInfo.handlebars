@@ -1,4 +1,4 @@
-<div class='container'>
+<div >
   <div class='card-header col-md-10'>
     <div class="dish-card">
   <div class="card-header">
@@ -6,22 +6,25 @@
   </div>
   <div class="card-body">
     <p>
-      ID:
-      {{state.id}}
-    </p>
-    <p>
+      Capital:
+      {{state.capital}}
+      <br>
       Size:
       {{state.size}}
+      <br>
+      Fun Fact:
     </p>
   </div>
 </div>
 
     <h2>
-      &#127869 Posts about this State
+      Posts about this State
     </h2>
   </div>
+  <div>
   {{#each state.posts as |post|}}
-    <div class='dish col-md-5'>
+  <div class="bg-light">
+    <div class='col-md-5'>
       <p>
         {{post_text}}.
         {{id}}
@@ -29,8 +32,17 @@
     </div>
     <div class='col-md-7'>
       <p>
-        Guest:
+        User:
         {{user_id}}
       </p>
     </div>
+  </div>
   {{/each}}
+  {{#if loggedIn}}
+  <input type="text" id="newPost"></input>
+  <button class="btn btn-primary">Create Post Test</button>
+  {{else}}
+  <a href="/">Log in</a><p>or</p><a href="/">Sign up</a><p>to create posts!</p>
+  {{/if}}
+
+  </div>

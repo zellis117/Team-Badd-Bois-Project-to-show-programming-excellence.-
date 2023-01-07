@@ -1,16 +1,14 @@
-body{
+/* body{
     background-image: url(/images/background_img.jpg);
-}
+} */
 
-header{
+/* header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
-    background-image: url(/images/flag_img.jpg);
-}
+} */
 
-button{
+.state-button{
     height: 50px;
     width: 50px;
 }
@@ -22,7 +20,7 @@ button{
 }
 
 #info{
-    width: 150px;
+    /* width: 150px; */
     height: 40px;
     display: flex;
     align-items: center;

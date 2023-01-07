@@ -1,71 +1,92 @@
+<html>
     <head>
          <meta charset="UTF-8">
         <title>UNC Group 6 Project</title>
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     </head>
-
     <body>
-        <header>
-            <h1>AmeriNotes</h1>
+        <header class="bg-light">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">AmeriNotes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h1></h1>
         </header>
 
         <div id="map">
-            <button id="Alabama">AL</button>
-            <button id="Alaska">AK</button>
-            <button id="Arizona">AZ</button>
-            <button id="Arkansas">AR</button>
-            <button id="California">CA</button>
-            <button id="Colorado">CO</button>
-            <button id="Cennectucut">CT</button>
-            <button id="Delaware">DE</button>
-            <button id="Florida">FL</button>
-            <button id="Georgia">GA</button>
-            <button id="Hawaii">HI</button>
-            <button id="Idaho">ID</button>
-            <button id="Illinois">IL</button>
-            <button id="Indiana">IN</button>
-            <button id="Iowa">IA</button>
-            <button id="Kansas">KS</button>
-            <button id="Kentucky">KY</button>
-            <button id="Luisiana">LA</button>
-            <button id="Maine">ME</button>
-            <button id="Maryland">MD</button>
-            <button id="Massachusetts">MA</button>
-            <button id="Michigan">MI</button>
-            <button id="Minnasota">MN</button>
-            <button id="Mississippi">MS</button>
-            <button id="Missuri">MO</button>
-            <button id="Montana">MT</button>
-            <button id="Nebraska">NE</button>
-            <button id="Nevada">NV</button>
-            <button id="New_Hampshire">NH</button>
-            <button id="New_Jersey">NJ</button>
-            <button id="New_Mexico">NM</button>
-            <button id="New_York">NY</button>
-            <button id="North_Carolina">NC</button>
-            <button id="North_Dakota">ND</button>
-            <button id="Ohio">OH</button>
-            <button id="Oklahoma">OK</button>
-            <button id="Oregon">OR</button>
-            <button id="Pennsylvania">PA</button>
-            <button id="Rhode_Island">RI</button>
-            <button id="South_Carolina">SC</button>
-            <button id="South_Dakota">SD</button>
-            <button id="Tennessee">TN</button>
-            <button id="Texas">TX</button>
-            <button id="Utah">UT</button>
-            <button id="Vermont">VT</button>
-            <button id="Virginia">VA</button>
-            <button id="Washington">WA</button>
-            <button id="West_Virginia">WV</button>
-            <button id="Wisconsin">WI</button>
-            <button id="Wyoming">WY</button>
-            <button id="DC">DC</button>
+            <button class="state-button" value="1" id="Alabama">AL</button>
+            <button class="state-button" value="2" id="Alaska">AK</button>
+            <button class="state-button" value="3" id="Arizona">AZ</button>
+            <button class="state-button" value="4" id="Arkansas">AR</button>
+            <button class="state-button" value="5" id="California">CA</button>
+            <button class="state-button" value="6" id="Colorado">CO</button>
+            <button class="state-button" value="7" id="Cennectucut">CT</button>
+            <button class="state-button" value="8" id="Delaware">DE</button>
+            <button class="state-button" value="9" id="Florida">FL</button>
+            <button class="state-button" value="10" id="Georgia">GA</button>
+            <button class="state-button" value="11" id="Hawaii">HI</button>
+            <button class="state-button" value="12" id="Idaho">ID</button>
+            <button class="state-button" value="13" id="Illinois">IL</button>
+            <button class="state-button" value="14" id="Indiana">IN</button>
+            <button class="state-button" value="15" id="Iowa">IA</button>
+            <button class="state-button" value="16" id="Kansas">KS</button>
+            <button class="state-button" value="17" id="Kentucky">KY</button>
+            <button class="state-button" value="18" id="Luisiana">LA</button>
+            <button class="state-button" value="19" id="Maine">ME</button>
+            <button class="state-button" value="20" id="Maryland">MD</button>
+            <button class="state-button" value="21" id="Massachusetts">MA</button>
+            <button class="state-button" value="22" id="Michigan">MI</button>
+            <button class="state-button" value="23" id="Minnasota">MN</button>
+            <button class="state-button" value="24" id="Mississippi">MS</button>
+            <button class="state-button" value="25" id="Missuri">MO</button>
+            <button class="state-button" value="26" id="Montana">MT</button>
+            <button class="state-button" value="27" id="Nebraska">NE</button>
+            <button class="state-button" value="28" id="Nevada">NV</button>
+            <button class="state-button" value="29" id="New_Hampshire">NH</button>
+            <button class="state-button" value="30" id="New_Jersey">NJ</button>
+            <button class="state-button" value="31" id="New_Mexico">NM</button>
+            <button class="state-button" value="32" id="New_York">NY</button>
+            <button class="state-button" value="33" id="North_Carolina">NC</button>
+            <button class="state-button" value="34" id="North_Dakota">ND</button>
+            <button class="state-button" value="35" id="Ohio">OH</button>
+            <button class="state-button" value="36" id="Oklahoma">OK</button>
+            <button class="state-button" value="37" id="Oregon">OR</button>
+            <button class="state-button" value="38" id="Pennsylvania">PA</button>
+            <button class="state-button" value="39" id="Rhode_Island">RI</button>
+            <button class="state-button" value="40" id="South_Carolina">SC</button>
+            <button class="state-button" value="41" id="South_Dakota">SD</button>
+            <button class="state-button" value="42" id="Tennessee">TN</button>
+            <button class="state-button" value="43" id="Texas">TX</button>
+            <button class="state-button" value="44" id="Utah">UT</button>
+            <button class="state-button" value="45" id="Vermont">VT</button>
+            <button class="state-button" value="46" id="Virginia">VA</button>
+            <button class="state-button" value="47" id="Washington">WA</button>
+            <button class="state-button" value="48" id="West_Virginia">WV</button>
+            <button class="state-button" value="49" id="Wisconsin">WI</button>
+            <button class="state-button" value="50" id="Wyoming">WY</button>
+            <button class="state-button" value="51" id="DC">DC</button>
         </div>
-
+        
         <div id="info">
-            <p>State Information:</p>
             {{{body}}}
         </div>
+        </div>
+        </main>
+        <script src="/js/main.js"></script>
     </body>
 </html>
