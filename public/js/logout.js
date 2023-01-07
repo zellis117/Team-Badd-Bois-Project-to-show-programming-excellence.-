@@ -10,6 +10,6 @@ const logout = async () => {
       alert(response.statusText);
     }
   };
-  
-  document.querySelector('#logout').addEventListener('click', logout);
+
+  document.querySelector('#nav-logout').addEventListener('click', logout);
   

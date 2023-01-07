@@ -9,3 +9,4 @@ const stateButtonHandler = async (event) => {
     .querySelectorAll('.state-button')
     stateButton.forEach((button) => 
     button.addEventListener('click', stateButtonHandler));
+

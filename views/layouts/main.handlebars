@@ -18,9 +18,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Home</a>
                             </li>
+                            {{#if loggedIn}}
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#" id="nav-logout">Log Out</a>
                             </li>
+                            {{/if}}
                         </ul>
                     </div>
                 </div>
@@ -88,5 +90,8 @@
         </div>
         </main>
         <script src="/js/main.js"></script>
+        {{#if loggedIn}}
+        <script src="/js/logout.js"></script>
+        {{/if}}
     </body>
 </html>
