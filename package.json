@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "seeds": "node seeds/index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
@@ -7,6 +10,7 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
+    "path": "^0.12.7",
     "sequelize": "^6.28.0"
   }
 }

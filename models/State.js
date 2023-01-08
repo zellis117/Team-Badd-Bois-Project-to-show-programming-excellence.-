@@ -11,7 +11,7 @@ State.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    state_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -21,9 +21,9 @@ State.init(
     },
     capital: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
-    fact: {
+    fun_fact: {
         type: DataTypes.STRING,
         allowNull: false
     }

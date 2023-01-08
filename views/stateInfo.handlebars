@@ -1,0 +1,52 @@
+<div >
+  <div class='card-header col-md-10'>
+    <div class="dish-card">
+  <div class="card-header">
+    {{state.state_name}}
+  </div>
+  <div class="card-body">
+    <p>
+      Capital:
+      {{state.capital}}
+      <br>
+      Size:
+      {{state.size}}
+      <br>
+      Fun Fact:
+    </p>
+  </div>
+</div>
+  </div>
+  <div>
+{{#if state.posts}}
+<h2>
+  Posts about this State
+</h2>
+{{/if}}
+  {{#each state.posts as |post|}}
+  <div class="bg-light">
+    <div class='col-md-5'>
+      <p>
+        {{post_text}}
+      </p>
+    </div>
+    <div class='col-md-7'>
+      <p>
+        Posted by:
+        {{user.username}}
+      </p>
+    </div>
+  </div>
+  {{/each}}
+  {{#if loggedIn}}
+  <div class="d-flex flex-column align-items-center">
+    <input type="text" placeholder="Enter post text" id="new-post"></input>
+      <button class="btn btn-outline-primary btn-sm" id="post-button">
+        <p>Create new post</p>
+      </button>
+  </div>
+  {{else}}
+  <a href="/login">Log in</a><p>or</p><a href="/signup">Sign up</a><p>to create posts!</p>
+  {{/if}}
+  </div>
+  <script src="/js/post.js"></script>

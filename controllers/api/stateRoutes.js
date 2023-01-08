@@ -1,11 +1,10 @@
 const router = require("express").Router();
 const { State, Post } = require("../../models");
 
-//Get all states with posts
+//Get all states
 
 router.get("/", async (req, res) => {
     try {
-        //TODO: include posts with each state
       const result = await State.findAll({include:[{"model": Post}]});
       const states = result.map((state) => {
         return state.get({ plain: true });
@@ -21,12 +20,22 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
      try {
       const result = await State.findByPk(req.params.id, {
-        include: [{"model":Post}]
+        include: [{
+          model:Post,
+          attributes: [
+            "id",
+            "user_id",
+            "post_text"
+          ]
+        }]
       });
       if (result) {
-        const state = result.get({ plain: true });
-        res.status(200).json(state);
-      }
+        const state = result.get({plain: true});
+      res.render('stateInfo', { 
+        state, 
+        loggedIn: req.session.logged_in });
+      };
+      
      } catch (err) {
         res.status(500).json(err)
      }
