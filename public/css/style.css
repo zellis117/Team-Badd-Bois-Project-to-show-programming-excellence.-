@@ -18,13 +18,16 @@
     margin-top: 10px;
 }
 #map{
+    width:550px;
+    height:400px;
     position: absolute;
     align-items: center;
     border-color: black;
 }
 
 #info{
-    /* width: 150px; */
+    margin-left: 575px;
+    /* width: 150px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -32,7 +35,7 @@
     position: absolute;
     background-color: white;
     left: 700px;
-    top: 200px;
+    top: 200px; */
 }
 
 #Alabama{position:absolute; left:300px; top:300px}
@@ -90,7 +93,7 @@
 @media only screen and (max-width: 850px){
     #info{
         position: absolute;
-        left: 50px;
-        top: 700px;
+        right:250px;
+        top: 600px;
     }
 }
