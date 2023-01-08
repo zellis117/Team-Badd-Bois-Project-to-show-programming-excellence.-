@@ -12,7 +12,8 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/api/state/1');
+        document.location.replace('/api/state/33');
+        sessionStorage.setItem('currentState', '33')
         sessionStorage.setItem('username', username)
       } else {
         alert('Failed to log in');
