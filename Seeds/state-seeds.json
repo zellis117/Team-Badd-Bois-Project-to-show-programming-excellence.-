@@ -3,306 +3,306 @@
         "id": 1,
         "state_name": "Alabama",
         "size": "50,065 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has a 3-day Adult space camp!"
     },
     {
         "id": 2,
         "state_name": "Alaska",
         "size": "586,000 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has the oldest standing hammer museum."
     },
     {
         "id": 3,
         "state_name": "Arizona",
         "size": "113,594 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Tequila and Chimichangas were invented in Arizona."
     },
     {
         "id": 4,
         "state_name": "Arkansas",
         "size": "52,035 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Host the World Championship of duck calling."
     },
     {
         "id": 5,
         "state_name": "California",
         "size": "155,959 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Hosted the summer and winter Olympics."
     },
     {
         "id": 6,
         "state_name": "Colorado",
         "size": "103,641 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has highway marker 419.99 because marker 420 kept getting stolen."
     },
     {
         "id": 7,
         "state_name": "Connecticut",
         "size": "4,842 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Was home to the first public library in the US."
     },
     {
         "id": 8,
         "state_name": "Delaware",
         "size": "1,948 sq mi",
-        "fun_fact": " "
+        "fun_fact": "University of Delaware had the first study abroad program."
     },
     {
         "id": 9,
         "state_name": "Florida",
         "size": "53,624 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Highest rate of lightning strikes per capita in the US."
     },
     {
         "id": 10,
         "state_name": "Georgia",
         "size": "57,513 sq mi",
-        "fun_fact": " "
+        "fun_fact": "There are more than 50 streets with 'Peachtree' in their name in Atlanta."
     },
     {
         "id": 11,
         "state_name": "Hawaii",
         "size": "6,422 sq mi",
-        "fun_fact": " "
+        "fun_fact": "There are no snakes on the Hawaiian islands."
     },
     {
         "id": 12,
         "state_name": "Idaho",
         "size": "82,169 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Relocated beavers via airdrop and parachutes in th 1940's."
     },
     {
         "id": 13,
         "state_name": "Illinois",
         "size": "55,518 sq mi",
-        "fun_fact": " "
+        "fun_fact": "They die the Chicago River green every year for St. Patrick's day."
     },
     {
         "id": 14,
         "state_name": "Indiana",
         "size": "35,826 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Home to the first ever theme park."
     },
     {
         "id": 15,
         "state_name": "Iowa",
         "size": "55,857 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Birthplace of the band Slipknot and the name of their second album."
     },
     {
         "id": 16,
         "state_name": "Kansas",
         "size": "81,758 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Home of White Castle, the first hamburger chain in the US."
     },
     {
         "id": 17,
         "state_name": "Kentucky",
         "size": "39,486 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Birth place of the guy who coded this API, and Abe Lincoln!"
     },
     {
         "id": 18,
         "state_name": "Luisiana",
         "size": "43,203 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Hold the world record for most people twerking at 406."
     },
     {
         "id": 19,
         "state_name": "Maine",
         "size": "30,842 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Produces 90% of America's toothpicks."
     },
     {
         "id": 20,
         "state_name": "Maryland",
         "size": "9,707 sq mi",
-        "fun_fact": " "
+        "fun_fact": "The official state sport is jousting."
     },
     {
         "id": 21,
         "state_name": "Massachusetts",
         "size": "7,800 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Home to first realtime operating computer at MIT."
     },
     {
         "id": 22,
         "state_name": "Michigan",
         "size": "56,538 sq mi",
-        "fun_fact": " "
+        "fun_fact": "University of Michigan's stadium is the largest in the western hemisphere."
     },
     {
         "id": 23,
         "state_name": "Minnesota",
         "size": "79,626 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Mall of America is large enough to hold 32 boeing 747 airplanes."
     },
     {
         "id": 24,
         "state_name": "Mississippi",
         "size": "46,923 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Root beer was invented there."
     },
     {
         "id": 25,
         "state_name": "Missouri",
         "size": "68,741 sq mi",
-        "fun_fact": " "
+        "fun_fact": "The first place to automatically slice bread."
     },
     {
         "id": 26,
         "state_name": "Montana",
         "size": "145,552 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has the largest collection of dinosaur fossils."
     },
     {
         "id": 27,
         "state_name": "Nebraska",
         "size": "76,824 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Birthplace of kool-aid and the ruben sandwich. What a great meal!"
     },
     {
         "id": 28,
         "state_name": "Nevada",
         "size": "109,781 sq mi",
-        "fun_fact": " "
+        "fun_fact": "More than 300 couples are married each day in Las Vegas."
     },
     {
         "id": 29,
         "state_name": "New Hampshire",
         "size": "8,952 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Only state that doesn't require you to wear a seat belt."
     },
     {
         "id": 30,
         "state_name": "New Jersey",
         "size": "7,354 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Had the first drive-in movie theatre."
     },
     {
         "id": 31,
         "state_name": "New Mexico",
         "size": "121,298 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Home to the world's largest hot air balloon festival."
     },
     {
         "id": 32,
         "state_name": "New York",
         "size": "47,126 sq mi",
-        "fun_fact": " "
+        "fun_fact": "NYC makes $120 million in parking tickets each year."
     },
     {
         "id": 33,
         "state_name": "North Carolina",
         "size": "48,617 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Home of the tallest lighthouse and larget mansion in the US."
     },
     {
         "id": 34,
         "state_name": "North Dakota",
         "size": "69,000 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has the world's largest buffalo monument."
     },
     {
         "id": 35,
         "state_name": "Ohio",
         "size": "40,860 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Have the largest drum sticks in the world in Dave Grohl."
     },
     {
         "id": 36,
         "state_name": "Oklahoma",
         "size": "68,594 sq mi",
-        "fun_fact": " "
+        "fun_fact": "The official state vegitable is a water melon. No, we aren't joking."
     },
     {
         "id": 37,
         "state_name": "Oregon",
         "size": "95,988 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has more strip clubs per capita than any other place on earth."
     },
     {
         "id": 38,
         "state_name": "Pennsylvania",
         "size": "44,742 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Phildelphia was once the capital of the US."
     },
     {
         "id": 39,
         "state_name": "Rhode Island",
         "size": "1,033 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Was the first state to abolish slavery."
     },
     {
         "id": 40,
         "state_name": "South Carolina",
         "size": "30,060 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Home of the Lizard Man myth."
     },
     {
         "id": 41,
         "state_name": "South Dakota",
         "size": "75,811 sq mi",
-        "fun_fact": " "
+        "fun_fact": "The crazy Horse giant statue still isn't finished and has been in construction since 1948."
     },
     {
         "id": 42,
         "state_name": "Tennessee",
         "size": "41,234 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Is the birthplace of Mountain Dew."
     },
     {
         "id": 43,
         "state_name": "Texas",
         "size": "261,232 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has the highest speed limit in the US at 85 mph."
     },
     {
         "id": 44,
         "state_name": "Utah",
         "size": "82,169 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Every county in Utah contains part of a National Forest."
     },
     {
         "id": 45,
         "state_name": "Vermont",
         "size": "9,216 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Vermont only has one telephone area code, 802."
     },
     {
         "id": 46,
         "state_name": "Virginia",
         "size": "39,490 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Virginia data centers account for 75% of web traffic."
     },
     {
         "id": 47,
         "state_name": "Washington",
         "size": "66,455 sq mi",
-        "fun_fact": " "
+        "fun_fact": "The state made it illegal to kill a Sasquatch."
     },
     {
         "id": 48,
         "state_name": "West Virginia",
         "size": "24,038 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Has a giant bunker designed to house all 535 members of congress."
     },
     {
         "id": 49,
         "state_name": "Wisconsin",
         "size": "54,157 sq mi",
-        "fun_fact": " "
+        "fun_fact": "The city of Green Bay produces more toilet paper than any other city."
     },
     {
         "id": 50,
         "state_name": "Wyoming",
         "size": "97,093 sq mi",
-        "fun_fact": " "
+        "fun_fact": "There is only 2 escalators in the entire state."
     },
     {
         "id": 51,
         "state_name": "DC",
         "size": "68 sq mi",
-        "fun_fact": " "
+        "fun_fact": "Traffic is worse than any other US city."
     }
 ]
