@@ -23,7 +23,7 @@
   Posts about this State
 </h2>
 {{/if}}
-  {{#each state.posts as |post|}}
+  {{#each state.posts}}
   <div class="bg-light">
     <div class='col-md-5'>
       <p>
@@ -49,4 +49,6 @@
   <a href="/login">Log in</a><p>or</p><a href="/signup">Sign up</a><p>to create posts!</p>
   {{/if}}
   </div>
+  {{#if loggedIn}}
   <script src="/js/post.js"></script>
+  {{/if}}

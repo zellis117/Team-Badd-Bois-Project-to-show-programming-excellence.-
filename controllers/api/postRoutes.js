@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Post } = require("../../models");
+const { Post, User } = require("../../models");
 
 //Create post
 router.post("/", async (req, res) => {
@@ -20,7 +20,11 @@ router.post("/", async (req, res) => {
 //Get all posts
 router.get("/", async (req, res) => {
     try {
-        const result = await Post.findAll()
+        const result = await Post.findAll({
+          include: {
+            model: User
+          }
+        })
         const posts = result.map((post) => {
            return post.get({ plain: true })
         });
