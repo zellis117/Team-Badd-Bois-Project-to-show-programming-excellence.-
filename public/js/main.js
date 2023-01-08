@@ -4,9 +4,9 @@ const stateButtonHandler = async (event) => {
     console.log(target)
     const id = target.value
     document.location.replace(`/api/state/${id}`);
+    sessionStorage.setItem('currentState', id)
 }
  const stateButton = document
     .querySelectorAll('.state-button')
     stateButton.forEach((button) => 
     button.addEventListener('click', stateButtonHandler));
-

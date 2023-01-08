@@ -13,6 +13,10 @@
     width: 50px;
 }
 
+#post-button{
+    height:35px;
+    margin-top: 10px;
+}
 #map{
     position: absolute;
     align-items: center;

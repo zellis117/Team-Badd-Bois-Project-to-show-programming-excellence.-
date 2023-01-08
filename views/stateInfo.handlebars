@@ -16,33 +16,37 @@
     </p>
   </div>
 </div>
-
-    <h2>
-      Posts about this State
-    </h2>
   </div>
   <div>
+{{#if state.posts}}
+<h2>
+  Posts about this State
+</h2>
+{{/if}}
   {{#each state.posts as |post|}}
   <div class="bg-light">
     <div class='col-md-5'>
       <p>
-        {{post_text}}.
-        {{id}}
+        {{post_text}}
       </p>
     </div>
     <div class='col-md-7'>
       <p>
-        User:
-        {{user_id}}
+        Posted by:
+        {{user.username}}
       </p>
     </div>
   </div>
   {{/each}}
   {{#if loggedIn}}
-  <input type="text" id="newPost"></input>
-  <button class="btn btn-primary">Create Post Test</button>
+  <div class="d-flex flex-column align-items-center">
+    <input type="text" placeholder="Enter post text" id="new-post"></input>
+      <button class="btn btn-outline-primary btn-sm" id="post-button">
+        <p>Create new post</p>
+      </button>
+  </div>
   {{else}}
   <a href="/login">Log in</a><p>or</p><a href="/signup">Sign up</a><p>to create posts!</p>
   {{/if}}
-
   </div>
+  <script src="/js/post.js"></script>
