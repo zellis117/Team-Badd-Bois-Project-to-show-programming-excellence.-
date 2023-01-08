@@ -3,306 +3,357 @@
         "id": 1,
         "state_name": "Alabama",
         "size": "50,065 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Montgomery"
     },
     {
         "id": 2,
         "state_name": "Alaska",
         "size": "586,000 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Juneau"
     },
     {
         "id": 3,
         "state_name": "Arizona",
         "size": "113,594 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Phoenix"
     },
     {
         "id": 4,
         "state_name": "Arkansas",
         "size": "52,035 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Little Rock"
     },
     {
         "id": 5,
         "state_name": "California",
         "size": "155,959 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Sacramento"
     },
     {
         "id": 6,
         "state_name": "Colorado",
         "size": "103,641 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Denver"
     },
     {
         "id": 7,
         "state_name": "Connecticut",
         "size": "4,842 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Hartford"
     },
     {
         "id": 8,
         "state_name": "Delaware",
         "size": "1,948 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Dover"
     },
     {
         "id": 9,
         "state_name": "Florida",
         "size": "53,624 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Tallahassee"
     },
     {
         "id": 10,
         "state_name": "Georgia",
         "size": "57,513 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Atlanta"
     },
     {
         "id": 11,
         "state_name": "Hawaii",
         "size": "6,422 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Honolulu"
     },
     {
         "id": 12,
         "state_name": "Idaho",
         "size": "82,169 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Boise"
     },
     {
         "id": 13,
         "state_name": "Illinois",
         "size": "55,518 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Springfield"
     },
     {
         "id": 14,
         "state_name": "Indiana",
         "size": "35,826 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Indianapolis"
     },
     {
         "id": 15,
         "state_name": "Iowa",
         "size": "55,857 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Des Moines"
     },
     {
         "id": 16,
         "state_name": "Kansas",
         "size": "81,758 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Topeka"
     },
     {
         "id": 17,
         "state_name": "Kentucky",
         "size": "39,486 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Frankfort"
     },
     {
         "id": 18,
         "state_name": "Luisiana",
         "size": "43,203 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Baton Rouge"
     },
     {
         "id": 19,
         "state_name": "Maine",
         "size": "30,842 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Augusta"
     },
     {
         "id": 20,
         "state_name": "Maryland",
         "size": "9,707 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Annapolis"
     },
     {
         "id": 21,
         "state_name": "Massachusetts",
         "size": "7,800 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Boston"
     },
     {
         "id": 22,
         "state_name": "Michigan",
         "size": "56,538 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Lansing"
     },
     {
         "id": 23,
         "state_name": "Minnesota",
         "size": "79,626 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Saint Paul"
     },
     {
         "id": 24,
         "state_name": "Mississippi",
         "size": "46,923 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Jackson"
     },
     {
         "id": 25,
         "state_name": "Missouri",
         "size": "68,741 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Jefferson City"
     },
     {
         "id": 26,
         "state_name": "Montana",
         "size": "145,552 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Helena"
     },
     {
         "id": 27,
         "state_name": "Nebraska",
         "size": "76,824 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Lincoln"
     },
     {
         "id": 28,
         "state_name": "Nevada",
         "size": "109,781 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Carson City"
     },
     {
         "id": 29,
         "state_name": "New Hampshire",
         "size": "8,952 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Concord"
     },
     {
         "id": 30,
         "state_name": "New Jersey",
         "size": "7,354 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Trenton"
     },
     {
         "id": 31,
         "state_name": "New Mexico",
         "size": "121,298 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Santa Fe"
     },
     {
         "id": 32,
         "state_name": "New York",
         "size": "47,126 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Albany"
     },
     {
         "id": 33,
         "state_name": "North Carolina",
         "size": "48,617 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Raleigh"
     },
     {
         "id": 34,
         "state_name": "North Dakota",
         "size": "69,000 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Bismarck"
     },
     {
         "id": 35,
         "state_name": "Ohio",
         "size": "40,860 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Columbus"
     },
     {
         "id": 36,
         "state_name": "Oklahoma",
         "size": "68,594 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Oklahoma City"
     },
     {
         "id": 37,
         "state_name": "Oregon",
         "size": "95,988 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Salem"
     },
     {
         "id": 38,
         "state_name": "Pennsylvania",
         "size": "44,742 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Harrisburg"
     },
     {
         "id": 39,
         "state_name": "Rhode Island",
         "size": "1,033 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Providence"
     },
     {
         "id": 40,
         "state_name": "South Carolina",
         "size": "30,060 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Columbia"
     },
     {
         "id": 41,
         "state_name": "South Dakota",
         "size": "75,811 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Pierre"
     },
     {
         "id": 42,
         "state_name": "Tennessee",
         "size": "41,234 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Nashville"
     },
     {
         "id": 43,
         "state_name": "Texas",
         "size": "261,232 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Austin"
     },
     {
         "id": 44,
         "state_name": "Utah",
         "size": "82,169 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Salt Lake City"
     },
     {
         "id": 45,
         "state_name": "Vermont",
         "size": "9,216 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Montpelier"
     },
     {
         "id": 46,
         "state_name": "Virginia",
         "size": "39,490 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Richmond"
     },
     {
         "id": 47,
         "state_name": "Washington",
         "size": "66,455 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Olympia"
     },
     {
         "id": 48,
         "state_name": "West Virginia",
         "size": "24,038 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Charleston"
     },
     {
         "id": 49,
         "state_name": "Wisconsin",
         "size": "54,157 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Madison"
     },
     {
         "id": 50,
         "state_name": "Wyoming",
         "size": "97,093 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"Cheyenne"
     },
     {
         "id": 51,
         "state_name": "DC",
         "size": "68 sq mi",
-        "fun_fact": " "
+        "fun_fact": " ",
+        "capital":"N/A"
     }
 ]
