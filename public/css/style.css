@@ -27,6 +27,8 @@
 
 #info{
     margin-left: 575px;
+    justify-items: center;
+    display: flex;
     /* width: 150px;
     height: 40px;
     display: flex;
@@ -36,6 +38,14 @@
     background-color: white;
     left: 700px;
     top: 200px; */
+}
+
+#login-container{
+    width:250px;
+}
+
+#signup-container{
+    width:250px;
 }
 
 #Alabama{position:absolute; left:300px; top:300px}
