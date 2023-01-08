@@ -1,5 +1,5 @@
 <div >
-  <div class='card-header col-md-10'>
+  <div class='card-header'>
     <div class="dish-card">
   <div class="card-header">
     {{state.state_name}}
@@ -25,12 +25,12 @@
 {{/if}}
   {{#each state.posts}}
   <div class="bg-light">
-    <div class='col-md-5'>
+    <div class=''>
       <p>
         {{post_text}}
       </p>
     </div>
-    <div class='col-md-7'>
+    <div class=''>
       <p>
         Posted by:
         {{user.username}}
@@ -46,8 +46,9 @@
       </button>
   </div>
   {{else}}
-  <a href="/login">Log in</a><p>or</p><a href="/signup">Sign up</a><p>to create posts!</p>
+  <a href="/login">Log in</a><span> or </span><a href="/signup">Sign up</a><span>to create posts!</span>
   {{/if}}
+  
   </div>
   {{#if loggedIn}}
   <script src="/js/post.js"></script>
