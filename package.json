@@ -1,7 +1,14 @@
-{
+{ 
+  "name": "amerinotes",
+    "description": "a really cool app",
+    "version": "1.0.0",
+    "engines": {
+      "node": "16.18.0"
+    },
   "scripts": {
     "build": "node seeds/index.js"
   },
+ 
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
@@ -13,4 +20,5 @@
     "path": "^0.12.7",
     "sequelize": "^6.28.0"
   }
+    
 }
