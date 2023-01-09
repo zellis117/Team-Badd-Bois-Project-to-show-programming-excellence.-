@@ -14,7 +14,7 @@ const sessionOptions = {
   secret: "sessionsecret",
   cookie: {},
   resave: false,
-  saveUnitialized: true,
+  saveUninitialized: true,
   store: new sequelizeStore({
     db:sequelize
   })
