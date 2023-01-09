@@ -12,7 +12,7 @@
                     <a class="navbar-brand" href="#">AmeriNotes</a>
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="/">Home</a>
                             </li>
                             {{#if loggedIn}}
                             <li class="nav-item">
@@ -24,8 +24,9 @@
             </nav>
             <h1></h1>
         </header>
-
-        <div id="map">
+        <main class="container">
+        <section class="row">
+        <div id="map" class="col-6">
             <button class="state-button" value="1" id="Alabama">AL</button>
             <button class="state-button" value="2" id="Alaska">AK</button>
             <button class="state-button" value="3" id="Arizona">AZ</button>
@@ -78,12 +79,13 @@
             <button class="state-button" value="50" id="Wyoming">WY</button>
             <button class="state-button" value="51" id="DC">DC</button>
         </div>
-        
-        <div id="info">
+        </div>
+        <div id="info" class="col-4">
             {{{body}}}
         </div>
-        </div>
+        </section>
         </main>
+        
         <script src="/js/main.js"></script>
         {{#if loggedIn}}
         <script src="/js/logout.js"></script>
