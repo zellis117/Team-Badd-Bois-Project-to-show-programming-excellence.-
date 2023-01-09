@@ -6,7 +6,7 @@
       "node": "16.18.0"
     },
   "scripts": {
-    "build": "node seeds/index.js"
+    "build": "node seed/index.js"
   },
  
   "dependencies": {
